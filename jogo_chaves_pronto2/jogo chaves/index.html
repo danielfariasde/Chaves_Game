@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Chaves</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div id="tela" class="aguardando">
+        <img src="imagens/pipa.png" id="pipa" alt="Pipa">
+        <img src="imagens/chaves.gif" id="chaves" alt="Chaves">
+        <img src="imagens/barril.png" id="barril" alt="Barril">
+        <img src="imagens/sanduiche.png" id="sanduiche" alt="Sanduíche">
+        <img src="imagens/gameover.png" id="gameover" alt="Game Over">
+        <div id="inicio">
+            <button id="botaoIniciar">INICIAR</button>
+            <p class="inicio-dica">ou pressione ESPAÇO</p>
+        </div>
+
+        <button id="botaoMusica">🔊 Música (M)</button>
+    </div>
+
+    <audio id="trilha" src="audio/trilha.m4a" loop preload="auto"></audio>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
